@@ -1,0 +1,29 @@
+﻿<settings>
+    <!-- Угол наклона kinect -->
+    <angle>-2</angle>
+    <!-- Радиус уточнения -->
+    <radiusRefine>40</radiusRefine>
+    <!-- Дистанция в мм от плоскости модели поверхности при которой считаем что касание есть -->
+    <thresholdDistance>9</thresholdDistance>
+    <!-- Минимальная высота блоба -->
+    <minHeight>40</minHeight>
+    <!-- Радиус поиска на карте глубины -->
+    <areaHalf>24</areaHalf>
+    <!-- Качество облака -->
+    <qualityCloud>4</qualityCloud>
+    <!-- Высота пространственного фильтра -->
+    <volumeFilter>180</volumeFilter>
+    <!-- Смещение фильтра от поверхности, вперед, в направлении нормали поверхности -->
+    <zOffsetFilter>15</zOffsetFilter>
+    <!-- Радиус для 3D сегментации -->
+    <radius>21</radius>
+    <!-- Число кадров, через которое исчезает блоб, для защиты от промаргивания -->
+    <aliveFrames>5</aliveFrames>
+    <!-- Порог скорости для курсора, для защиты от дрожания -->
+    <cursorSpeedThreshold>0.05</cursorSpeedThreshold>
+    <!-- Параметры интерактивной зоны -->
+    <boundX>30</boundX>
+    <boundY>126</boundY>
+    <boundW>476</boundW>
+    <boundH>287</boundH>
+</settings>
